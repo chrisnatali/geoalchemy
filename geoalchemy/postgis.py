@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from sqlalchemy import select, func, and_
 from geoalchemy.base import SpatialComparator, PersistentSpatialElement,\
-    WKBSpatialElement
+    WKBSpatialElement, WKTSpatialElement
 from geoalchemy.dialect import SpatialDialect 
 from geoalchemy.functions import functions, BaseFunction
 
